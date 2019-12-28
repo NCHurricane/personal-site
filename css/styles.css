@@ -1,13 +1,26 @@
 body {
+  color: #40514E;
   margin: 0;
-  background-color: #e0ebe8;
   text-align: center;
   font-family: 'Merriweather', serif;
   font-size: .8em;
+  background-color: white;
 }
 
 a {
   color: #11999E;
+}
+
+a:hover {
+  color: white;
+}
+
+hr {
+  border-style: dotted none none none;
+  width: 5%;
+  border-color: lightgray;
+  border-width: 6px;
+  height: 0;
 }
 
 h1 {
@@ -31,20 +44,31 @@ h3 {
 }
 
 .top-container {
-  background-color: #E4F5F9;
+  background-color: #d3e0e0;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  line-height: 2;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto 50px auto;
+}
 
 .profile-pic {
-  height: 300px;
+  height: 175px;
   border-radius: 100%;
 }
 
+.skills {
+  margin: 50px auto 50px auto;
+}
+
 .skill-row {
-  margin: 100px auto;
+  margin: 70px auto;
   width: 50%;
   text-align: left;
   line-height: 2;
@@ -64,7 +88,59 @@ h3 {
   margin-left: 30px;
 }
 
-.bottom-container {}
+.contact-me {
+  margin: 50px auto 50px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 50px;
+}
+
+.myButton {
+  box-shadow: 0 10px 14px -7px #3e7327;
+  background-color: #66bfbf;
+  border-radius: 4px;
+  border: 1px solid #4b8f29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 9px 19px;
+  text-decoration: none;
+  text-shadow: 0 1px 0 #5b8a3c;
+  margin-top: 40px;
+}
+
+.myButton:hover {
+  background-color: #72b352;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+.footer-link {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  display: inline-block;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: bold;
+}
+
+.copyright {
+  font-family: 'Montserrat', sans-serif;
+  color: #EAF6F6;
+  font-size: .75rem;
+}
 
 .pro {
   text-decoration: underline;
